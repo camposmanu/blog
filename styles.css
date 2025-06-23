@@ -1,0 +1,69 @@
+/* Estilo geral */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f9f9f9;  /* FUNDO CLARO */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center; /* Centraliza o texto */
+    border-bottom: 3px solid #d40000;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Todas as seções principais */
+  section {
+    max-width: 800px;
+    margin: 40px auto; /* Centraliza a caixa na página */
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 5px solid #d40000;
+    border-radius: 10px;
+    text-align: center; /* Centraliza o texto dentro da seção */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Títulos */
+  h1, h2 {
+    color: #b20000;
+    margin-bottom: 15px;
+  }
+  
+  /* Listas */
+  ul, dl {
+    text-align: left;  /* Mantém a leitura fácil */
+    display: inline-block;
+    margin-top: 15px;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    background-color: #fff;
+    color: #b20000;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border-top: 2px solid #d40000;
+  }
+  
+  .banner-imagem {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .banner-imagem img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
